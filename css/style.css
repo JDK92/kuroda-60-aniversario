@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%; }
+
+.title, .subtitle {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 5.6vh;
+  padding-bottom: 2vh;
+  text-align: center; }
+
+.text {
+  font-family: 'Merriweather', serif;
+  font-size: 2.7vh;
+  line-height: 145%;
+  text-align: center;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh; }
+
+.title {
+  font-size: 5.6vh; }
+
+.subtitle {
+  font-size: 4vh; }
+
+/* PALETTE COLORS */
+/* SOCIAL NETWORK ICON COLORS */
+/* MEDIA QUERY BREAKPOINTS */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.container__box {
+  width: 90%;
+  margin-bottom: 2.8vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.container__title {
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 3vh;
+  padding-bottom: 1.2vh; }
+
+@media only screen and (min-width: 576px) {
+  .container__title--responsive {
+    font-size: 8vh; } }
+
+/* PALETTE COLORS */
+/* SOCIAL NETWORK ICON COLORS */
+/* MEDIA QUERY BREAKPOINTS */
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.form__label {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.6vh;
+  margin-top: 1vh;
+  margin-bottom: 0.8vh;
+  align-self: flex-start;
+  color: rgba(20, 20, 20, 0.8); }
+
+.form__input {
+  width: 100%;
+  font-size: 17px;
+  padding: 2px 3px;
+  margin-bottom: 1vh;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-style: solid; }
+
+@media only screen and (min-width: 576px) {
+  .form--responsive {
+    width: 100%; } }
+
+.form__item {
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
+
+@media only screen and (min-width: 576px) {
+  .form__label--responsive {
+    font-size: 3.6vh;
+    margin-top: 1.2vh;
+    margin-bottom: 1.4vh; } }
+
+/* PALETTE COLORS */
+/* SOCIAL NETWORK ICON COLORS */
+/* MEDIA QUERY BREAKPOINTS */
+.button {
+  font-weight: bolder;
+  font-size: 2.6vh;
+  width: 100%;
+  padding: 8px 0;
+  margin: 1.8vh;
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.1); }
+
+.button--secondary {
+  background: white; }
+
+.button--main {
+  background: black;
+  color: white; }
+
+@media only screen and (min-width: 576px) {
+  .button--responsive {
+    font-size: 5vh; } }
+
+/* PALETTE COLORS */
+/* SOCIAL NETWORK ICON COLORS */
+/* MEDIA QUERY BREAKPOINTS */
+
+/*# sourceMappingURL=style.css.map */

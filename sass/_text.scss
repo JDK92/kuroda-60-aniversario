@@ -1,0 +1,46 @@
+%title {
+    font: {
+        family: 'Lato', sans-serif;
+        weight: bolder;
+        size: 5.6vh;
+    }
+    padding: {
+        bottom: 2vh;
+    }
+    text: {
+        align: center;
+    }
+}
+
+%text {
+    font: {
+        family: 'Merriweather', serif;
+        size: 2.7vh;
+    }
+    line-height: 145%;
+    text: {
+        align: center;
+    }
+    padding: {
+        top: 1.5vh;
+        bottom: 1.5vh;
+    }
+}
+
+// BLOCK
+.text {
+    @extend %text;
+}
+
+.title {
+    @extend %title;
+    font-size: 5.6vh;
+}
+
+.subtitle {
+    @extend %title;
+    font-size: 4vh;
+}
+
+// ELEMENT
+// MOD

@@ -1,0 +1,35 @@
+@import "variables";
+
+// BLOCK
+.button {
+    font: {
+        weight: bolder;
+        size: 2.6vh;
+    }
+    width: 100%;
+    padding: 8px 0;
+    margin: 1.8vh;
+    border: {
+        style: solid;
+        radius: 2px;
+        width: 1px;
+        color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+// ELEMENT 
+// MOD
+.button--secondary {
+    background: white;
+}
+
+.button--main {
+    background: black;
+    color: white;
+}
+
+.button--responsive {
+    @include responsive(s) {
+        font-size: 5vh;
+    }
+}
