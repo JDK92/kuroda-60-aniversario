@@ -1,0 +1,12 @@
+.countdown-container {
+    width: 100%;
+    text-align: center;
+    font: {
+        family: 'Lato', sans-serif;
+        size: 2.2vh;
+        weight: bolder;
+    }
+    padding: 5px 0;
+    background-color: #b20000;
+    color: $white;
+}

@@ -1,0 +1,30 @@
+%flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+%flex-column {
+    @extend %flex-row;
+    flex-direction: column;
+}
+
+.fr-start {
+    @extend %flex-row;
+}
+
+.fc-start {
+    @extend %flex-column;
+}
+
+.fr-end {
+    @extend %flex-row;
+    justify-content: end;
+}
+
+.f-space-around {
+    justify-content: space-around;
+}
+
+.f-space-between {
+    justify-content: space-between;
+}

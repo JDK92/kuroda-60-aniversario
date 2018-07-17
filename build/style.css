@@ -4,7 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-appearance: none;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Lato', sans-serif; }
 
 .title, .subtitle {
   font-family: 'Lato', sans-serif;
@@ -38,26 +39,23 @@
       flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  min-height: 100vh; }
+
+.header {
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  font-weight: bolder;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.1); }
+
+.header__item {
+  padding: 8px 5px;
+  font-size: 2.4vh;
+  margin: 5px; }
 
 .container__box {
   width: 90%;
-  margin-bottom: 2.8vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  margin-bottom: 2.8vh; }
 
 .container__title {
   font-family: 'Lato', sans-serif;
@@ -68,6 +66,15 @@
 @media only screen and (min-width: 576px) {
   .container__title--responsive {
     font-size: 8vh; } }
+
+.imagen {
+  width: 500px;
+  height: 500px; }
+
+.texto-en-imagen {
+  font-size: 18px;
+  color: white;
+  position: absolute; }
 
 /* PALETTE COLORS */
 /* SOCIAL NETWORK ICON COLORS */
@@ -114,7 +121,6 @@
     width: 100%; } }
 
 .form__item {
-  width: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,7 +129,8 @@
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  width: 100%; }
 
 @media only screen and (min-width: 576px) {
   .form__label--responsive {
@@ -145,6 +152,15 @@
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.1); }
 
+.logout {
+  text-decoration: none;
+  color: #141414;
+  padding: 3px 5px;
+  border-radius: 2px;
+  border-color: #141414;
+  border-width: 1px;
+  border-style: solid; }
+
 .button--secondary {
   background: white; }
 
@@ -159,3 +175,39 @@
 /* PALETTE COLORS */
 /* SOCIAL NETWORK ICON COLORS */
 /* MEDIA QUERY BREAKPOINTS */
+.fc-start, .fr-start, .fr-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.fc-start {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.fr-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end; }
+
+.f-space-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.f-space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.countdown-container {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.2vh;
+  font-weight: bolder;
+  padding: 5px 0;
+  background-color: #b20000;
+  color: #FFFFFF; }

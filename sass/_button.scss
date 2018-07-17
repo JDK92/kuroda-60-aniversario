@@ -1,5 +1,4 @@
 @import "variables";
-
 // BLOCK
 .button {
     font: {
@@ -14,6 +13,20 @@
         radius: 2px;
         width: 1px;
         color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+.logout {
+    text: {
+        decoration: none;
+    }
+    color: $black;
+    padding: 3px 5px;
+    border: {
+        radius: 2px;
+        color: $black;
+        width: 1px;
+        style: solid;
     }
 }
 

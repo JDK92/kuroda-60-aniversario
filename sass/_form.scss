@@ -50,12 +50,12 @@
 }
 
 .form__item {
-    width: 100px;
     display: flex;
     flex: {
         wrap: wrap;
         direction: column;
     }
+    width: 100%;
 }
 
 .form__label--responsive {
