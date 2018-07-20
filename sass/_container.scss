@@ -4,7 +4,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 100vh;
 }
 
 .header {
@@ -14,6 +13,29 @@
         weight: bolder;
     }
     border-bottom: 1px solid rgba($color: $black, $alpha: 0.1);
+}
+
+.tickets {
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: {
+        radius: 50%;
+    }
+    text: {
+        align: center;
+        shadow: 2px 4px 3px rgba($color: $black, $alpha: 0.3);
+    }
+    font: {
+        size: 10 vh;
+    }
+    color: $white;
+    background: #ED213A;
+    background: linear-gradient(to right, #93291E, #ED213A);
 }
 
 // ELEMENT

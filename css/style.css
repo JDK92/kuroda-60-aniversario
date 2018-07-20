@@ -9,8 +9,8 @@
 .title, .subtitle {
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
-  font-size: 5.6vh;
-  padding-bottom: 2vh;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
   text-align: center; }
 
 .text {
@@ -25,7 +25,7 @@
   font-size: 5.6vh; }
 
 .subtitle {
-  font-size: 4vh; }
+  font-size: 4.5vh; }
 
 /* PALETTE COLORS */
 /* SOCIAL NETWORK ICON COLORS */
@@ -33,14 +33,29 @@
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  min-height: 100vh; }
+  justify-content: center; }
 
 .header {
   width: 100%;
   font-family: 'Merriweather', serif;
   font-weight: bolder;
   border-bottom: 1px solid rgba(20, 20, 20, 0.1); }
+
+.tickets {
+  width: 150px;
+  height: 150px;
+  padding: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  text-shadow: 2px 4px 3px rgba(20, 20, 20, 0.3);
+  font-size: 10vh;
+  color: #FFFFFF;
+  background: #ED213A;
+  background: linear-gradient(to right, #93291E, #ED213A); }
 
 .header__item {
   padding: 8px 5px;
@@ -61,15 +76,6 @@
   .container__title--responsive {
     font-size: 8vh; } }
 
-.imagen {
-  width: 500px;
-  height: 500px; }
-
-.texto-en-imagen {
-  font-size: 18px;
-  color: white;
-  position: absolute; }
-
 /* PALETTE COLORS */
 /* SOCIAL NETWORK ICON COLORS */
 /* MEDIA QUERY BREAKPOINTS */
@@ -78,7 +84,8 @@
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-appearance: none; }
 
 .form__label {
   display: block;
@@ -97,7 +104,8 @@
   border-radius: 2px;
   border-width: 1px;
   border-color: rgba(0, 0, 0, 0.2);
-  border-style: solid; }
+  border-style: solid;
+  background: none; }
 
 @media only screen and (min-width: 576px) {
   .form--responsive {
@@ -142,7 +150,7 @@
   background: white; }
 
 .button--main {
-  background: black;
+  background: #015418;
   color: white; }
 
 @media only screen and (min-width: 576px) {
@@ -158,6 +166,9 @@
 
 .fc-start {
   flex-direction: column; }
+
+.fr-centered {
+  justify-content: center; }
 
 .fr-end {
   justify-content: end; }
@@ -175,7 +186,6 @@
   font-size: 2.2vh;
   font-weight: bolder;
   padding: 5px 0;
-  background-color: #b20000;
-  color: #FFFFFF; }
+  color: #A11213; }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,10 +2,10 @@
     font: {
         family: 'Lato', sans-serif;
         weight: bolder;
-        size: 5.6vh;
     }
     padding: {
-        bottom: 2vh;
+        bottom: 1vh;
+        top: 1vh
     }
     text: {
         align: center;
@@ -39,7 +39,7 @@
 
 .subtitle {
     @extend %title;
-    font-size: 4vh;
+    font-size: 4.5vh;
 }
 
 // ELEMENT

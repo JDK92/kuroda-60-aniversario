@@ -16,6 +16,10 @@
     @extend %flex-column;
 }
 
+.fr-centered {
+    justify-content: center;
+}
+
 .fr-end {
     @extend %flex-row;
     justify-content: end;

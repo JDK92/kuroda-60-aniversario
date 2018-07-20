@@ -11,21 +11,22 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="container__box">
-
-        </div>
+    <div class="fr-start fr-centered">
 
         <div class="container__box">
             <h1 class="container__title">Inicia sesión</h1>
             <form action="" id="login" class="form">
-                <label for="user" class="form__label form__label--responsive">Tu correo</label>
-                <input type="email" name="user" id="user" class="form__input form__input--responsive">
+                <div class="form__item">
+                    <label for="user" class="form__label form__label--responsive">Tu correo</label>
+                    <input type="email" name="user" id="user" class="form__input form__input--responsive">
+                </div>
 
-                <label for="userPassword" class="form__label form__label--responsive">Contraseña</label>
-                <input type="password" name="userPassword" id="userPassword" class="form__input form__input--responsive">
 
-                
+                <div class="form__item">
+                    <label for="userPassword" class="form__label form__label--responsive">Contraseña</label>
+                    <input type="password" name="userPassword" id="userPassword" class="form__input form__input--responsive">
+                </div>
+
                 <input type="button" value="Enviar" class="button button--main button--responsive">
             </form>
         </div>

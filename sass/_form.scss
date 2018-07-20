@@ -8,6 +8,7 @@
     }
     justify-content: center;
     align-items: center;
+    -webkit-appearance: none;
 }
 
 // ELEMENT
@@ -40,6 +41,7 @@
         color: rgba(0, 0, 0, 0.2);
         style: solid;
     }
+    background: none;
 }
 
 // MOD
